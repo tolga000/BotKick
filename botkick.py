@@ -128,7 +128,7 @@ def SEND_MESSAGE(op):
 #--------------------------------------------------------------
                 if msg.text == "Mulai":
                     print "ok"
-                    _name = msg.text.replace("Mulai","")
+                    _name = msg.text.replace("tolga","")
                     gs = client.getGroup(msg.to)
                     sendMessage(msg.to,"Halooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo")
                     targets = []
